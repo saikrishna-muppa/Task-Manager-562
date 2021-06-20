@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body onload="task_manager()">
+    <div class="task-container">
+      <div>
+        <h1>Server list</h1>
+        <button class="add-btn" onclick="add_server()">Add server</button>
+        <ui id="servers"> </ui>
+      </div>
+      <div>
+        <h1>Task list</h1>
+        <input type="number" id="task_count" min="1" />
+        <button class="task-btn" onclick="add_task()">Add task</button>
+        <ui id="tasks"> </ui>
+      </div>
+      <div>
+        <h1>Task Queue</h1>
+        <ui id="queue"> </ui>
+      </div>
+    </div>
+
+    <script src="task_manager.js"></script>
+  </body>
+</html>

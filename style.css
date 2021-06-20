@@ -1,0 +1,126 @@
+body {
+  background-color: #9e9e9eb3;
+}
+.task-container {
+  display: flex;
+  justify-content: space-around;
+}
+.task-container > div {
+  width: 33%;
+}
+
+#servers,
+#tasks,
+#queue li {
+  list-style-type: none;
+}
+#servers li {
+  padding: 18px 68px 10px 24px;
+}
+#tasks li {
+  padding: 18px 68px 10px 24px;
+}
+#queue {
+  padding: 18px 68px 10px 24px;
+}
+.add-btn {
+  background-color: violet;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 4px;
+  font-size: medium;
+  border: none;
+}
+span {
+  display: inline-block;
+  color: black;
+  height: 33%;
+  margin-top: auto;
+  margin-bottom: 4px;
+  width: 100%;
+  text-align: center;
+  background-color: blanchedalmond;
+  border-radius: 4px;
+  font-size: 22px;
+  font-weight: 500;
+}
+span:hover {
+  background-color: tomato;
+  color: white;
+}
+.task-container > div > h1 {
+  background-color: #ddddddf7;
+  border-radius: 4px;
+  text-align: center;
+}
+.task-container > div > h1:hover {
+  color: goldenrod;
+  background: black;
+}
+button.fa.fa-trash-o {
+  padding: 4px 6px 2px 6px;
+  font-size: 20px;
+  border-radius: 6px;
+  border-color: violet;
+}
+
+.remove-btn {
+  border-color: violet;
+  color: violet;
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-size: medium;
+  background-color: white;
+}
+
+.task-btn {
+  background-color: violet;
+  color: white;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 6px;
+}
+
+#task_count {
+  max-width: 10%;
+  border-color: violet;
+  border-radius: 4px;
+  height: 24px;
+}
+
+#myProgress {
+  width: 96%;
+  background-color: white;
+  border: 2px solid #f00be4;
+  margin-bottom: 5px;
+  display: block;
+  border-radius: 4px;
+}
+#queue .myBar {
+  color: black;
+}
+.myBar {
+  width: 0%;
+  height: 40px;
+  background-color: #f00be4;
+  color: white;
+  border-radius: 4px;
+  border: none;
+  height: 30px;
+  font-weight: 600;
+}
+#servers button {
+  background-color: rgb(253, 1, 1);
+  color: white;
+  border-radius: 4px;
+  border: none;
+  height: 30px;
+  font-weight: 600;
+}
+#servers button:hover {
+  background-color: black;
+  color: gold;
+}
+.list {
+  height: auto;
+}
