@@ -124,3 +124,14 @@ button.fa.fa-trash-o {
 .list {
   height: auto;
 }
+
+@media (max-width:600px) {
+  .task-container {
+    display: flex;
+    flex-direction: column;
+   
+  }
+  span{
+    width: auto;
+  }
+}
